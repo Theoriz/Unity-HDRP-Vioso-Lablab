@@ -8,7 +8,7 @@ Unity HDRP template with Vioso integration for the Lablab studio.
 2. Download the Vioso calibration file [here](http://gofile.me/67omf/z4MSltLGp) and add it to the Assets/Plugins/Vioso/ folder. 
 
 
-### Merging into your own project
+### Merging into your own project (optional)
 
 1. Copy the Plugins, ProjectionSetup and Resources folders from this project to your own project Assets.
 
