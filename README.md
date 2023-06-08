@@ -1,5 +1,5 @@
-# Unity-HDRP-Vioso-Template
-Unity HDRP template with Vioso integration for the Lablab studio.
+# Unity-HDRP-Vioso-Lablab
+Unity HDRP example project with Vioso integration for the Lablab studio.
 
 ## Installation
 
