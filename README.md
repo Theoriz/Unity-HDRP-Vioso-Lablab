@@ -1,5 +1,5 @@
-# Unity-HDRP-Vioso-Template
-Unity HDRP template with Vioso integration for the Lablab studio.
+# Unity-HDRP-Vioso-Lablab
+Unity HDRP example project with Vioso integration for the Lablab studio.
 
 ## Installation
 
@@ -16,6 +16,9 @@ Unity HDRP template with Vioso integration for the Lablab studio.
 
 ![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/HDRPGlobalSettings.jpg)
 
+## Building your application
+
+After building your application, copy the vioso calibration file (.vwf) and VIOSOWarpBlend.ini files from the Unity Assets/Plugins/Vioso folder to your build folder in [your_build_path..]/[your_application_name]_Data/Plugins/[your_architecture]/ next to the ViosoWarpBlend.dll file.
 
 ## Usage
 
