@@ -33,7 +33,7 @@ Transform:
   - {fileID: 4609309940377320037}
   - {fileID: 8696537978690219785}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &8095448382045503862
 MonoBehaviour:
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 8782887151646620124}
   - component: {fileID: 6025037759831141986}
   m_Layer: 12
-  m_Name: PostProcessDisplay2
+  m_Name: PostProcessDisplay3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

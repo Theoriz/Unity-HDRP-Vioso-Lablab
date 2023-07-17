@@ -15650,7 +15650,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 50
     distanceFadeEnd: 60
-    textureOffset: {x: -0, y: -17.790667, z: -0}
+    textureOffset: {x: -0, y: -92.03094, z: -0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
