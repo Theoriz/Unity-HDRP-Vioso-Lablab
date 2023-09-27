@@ -12,21 +12,12 @@ Unity HDRP example project with Vioso integration for the Lablab studio.
 
 1. Copy the Plugins, ProjectionSetup and Resources folders from this project to your own project Assets.
 
-2. Add the ViosoWarpBlendPP and TextureBlitPostProcess to the After Post Process section of the HDRP Global Settings.
+2. Add the ViosoWarpBlendPP to the After Post Process section of the HDRP Global Settings.
 
 <img src="https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/HDRPGlobalSettings.jpg" width="50%" height="50%">
 
-3. Add the layers TextureBlitDisplay1 and TextureBlitDisplay3 to your project layers.
+3. Replace the camera in your scene by the ProjectionSetup prefab from the ProjectionSetup/Prefab folder.
 
-<img src="https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/Layers.jpg" width="50%" height="50%">
-
-4. Set the PostProcessDisplay1 and PostProcessDisplay3 layers to the created layers.
-
-<img src="https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/PostProcessDisplay.jpg" width="50%" height="50%">
-
-5. Set the CameraDisplay1 and CameraDisplay3 volume mask to the created layers.
-
-<img src="https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/CameraVolumeMask.jpg" width="50%" height="50%">
 
 ## Building your application
 
