@@ -23,6 +23,8 @@ Unity HDRP example project with Vioso integration for the Lablab studio.
 
 After building your application, copy the vioso calibration file (.vwf) and VIOSOWarpBlend.ini files from the Unity Assets/Plugins/Vioso folder to your build folder in [your_build_path..]/[your_application_name]_Data/Plugins/[your_architecture]/ next to the ViosoWarpBlend.dll file.
 
+> When building for Windows 64 bits, the ViosoBuildPostProcessor script should automatically make this copy.
+
 ## Usage
 
 ### ProjectionSetup prefab
