@@ -266,5 +266,6 @@ public class VIOSOHDRPCamera : MonoBehaviour
         WarperSet s;
         _warperDict.TryGetValue(camera.name, out s);
         MyUpdate(ref camera, ref s);
+        
     }
 }

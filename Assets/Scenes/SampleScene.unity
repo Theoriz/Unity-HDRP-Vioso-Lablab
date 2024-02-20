@@ -16784,6 +16784,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7065752155906821531, guid: 2cde17360eb838d4d9cc8673a325a0ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7978791978599950049, guid: 2cde17360eb838d4d9cc8673a325a0ea, type: 3}
       propertyPath: m_Name
       value: ProjectionSetup_SplitScreen

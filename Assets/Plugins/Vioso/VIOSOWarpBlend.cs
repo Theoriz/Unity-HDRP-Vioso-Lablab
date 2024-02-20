@@ -125,7 +125,7 @@ namespace VIOSOWarpBlend
 
             /// the calibration index in mapping file, defaults to 0,
             /// you also might set this to negated display number, to search for a certain display:
-            Int32 calibIndex;
+            public Int32 calibIndex;
 
             /// set to true to make the world turn and move with view direction and eye position, this is the case if the viewer gets
             /// moved by a motion platform, defaults to false
@@ -168,7 +168,7 @@ namespace VIOSOWarpBlend
             ///				0x00010000 change sign of x movement, 0x00020000 use input y as x, 0x00040000 use input z as x
             ///				0x00100000 change sign of y movement, 0x00200000 use input x as y, 0x00400000 use input z as y
             ///				0x01000000 change sign of z movement, 0x02000000 use input x as z, 0x04000000 use input y as z
-            Int32 splice;
+            public Int32 splice;
 
             /// the transformation matrix to go from VIOSO coordinates to IG coordinates, defaults to indentity
             /// note VIOSO maps are always right-handed, to use with a left-handed world like DirectX, invert the z!
