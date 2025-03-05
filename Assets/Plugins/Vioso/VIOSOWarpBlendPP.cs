@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.HighDefinition;
-using System.Runtime.InteropServices;
 using System;
 using VIOSOWarpBlend;
 
@@ -11,7 +10,9 @@ public sealed class VIOSOWarpBlendPP : CustomPostProcessVolumeComponent, IPostPr
     const string kShaderName = "Hidden/Shader/VIOSOWarpBlendPP";
     public Material m_Material;
 
-    public bool IsActive() => (m_Material != null);
+    public BoolParameter enabled = new BoolParameter(false);
+
+    public bool IsActive() => (m_Material != null) && enabled.value;
 
     // Do not forget to add this post process in the Custom Post Process Orders list (Project Settings > HDRP Default Settings).
     public override CustomPostProcessInjectionPoint injectionPoint => CustomPostProcessInjectionPoint.AfterPostProcess;
