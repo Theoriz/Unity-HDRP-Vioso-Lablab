@@ -53,6 +53,8 @@ With this setup, you should see the following output in the sample scene :
 
 ![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/OutputsMire.jpg)
 
+> [!TIP]
+> The Lablab studio model is disabled by default in the prefab. You can activate it for debugging purposes by enabling the Lablab object in the ProjectionSetup prefab.
 
 ## Building your application
 
@@ -71,13 +73,9 @@ The projection setup for the Lablab studio is created in the ProjectionSetup pre
 
 Add this prefab to your scene and disable other cameras in order to setup your scene for projection in the Lablab studio.
 
-> [!TIP]
-> The Lablab studio model is disabled by default in the prefab. You can activate it for debugging purposes by enabling the Lablab object in the ProjectionSetup prefab.
-
 For example in this project SampleScene, this projection setup as been added to the First person controller to replace the default camera of the First person controller.
 
 ![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/ProjectionSetupInSampleScene.jpg)
-
 
 
 ### Using the studio model
