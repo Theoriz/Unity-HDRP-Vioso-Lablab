@@ -32,7 +32,7 @@ If you are an experienced user and already have an existing project, follow the 
 
 5. Add the ViosoWarpBlendPP to the After Post Process section of the HDRP Global Settings.
 
-<img src="https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/HDRPGlobalSettings.jpg" width="50%" height="50%">
+<img src="https://github.com/Theoriz/Unity-HDRP-Vioso-Lablab/blob/main/Resources/Documentation/Screenshots/HDRPGlobalSettings.jpg" width="50%" height="50%">
 
 6. Replace the camera in your scene by the ProjectionSetup prefab from the ProjectionSetup/Prefab folder.
 
@@ -51,7 +51,7 @@ To previsualize this in Unity :
 
 With this setup, you should see the following output in the sample scene :
 
-![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/OutputsMire.jpg)
+![](https://github.com/Theoriz/Unity-HDRP-Vioso-Lablab/blob/main/Resources/Documentation/Screenshots/OutputsMire.jpg)
 
 > [!TIP]
 > The Lablab studio model is disabled by default in the prefab. You can activate it for debugging purposes by enabling the Lablab object in the ProjectionSetup prefab.
@@ -69,21 +69,21 @@ After building your application, copy the vioso calibration file (.vwf) and VIOS
 
 The projection setup for the Lablab studio is created in the ProjectionSetup prefab located in the ProjectionSetup/Lablab/Prefab/ folder.
 
-![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/ProjectionSetupPrefab.jpg)
+![](https://github.com/Theoriz/Unity-HDRP-Vioso-Lablab/blob/main/Resources/Documentation/Screenshots/ProjectionSetupPrefab.jpg)
 
 Add this prefab to your scene and disable other cameras in order to setup your scene for projection in the Lablab studio.
 
 For example in this project SampleScene, this projection setup as been added to the First person controller to replace the default camera of the First person controller.
 
-![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/ProjectionSetupInSampleScene.jpg)
+![](https://github.com/Theoriz/Unity-HDRP-Vioso-Lablab/blob/main/Resources/Documentation/Screenshots/ProjectionSetupInSampleScene.jpg)
 
 
 ### Using the studio model
 
 In the ProjectionSetup prefab, the Lablab object is a 3D model of the studio for debugging purposes. It is enabled to help you visualize the physical space of the studio in your 3D world and validate the outputs. Once it is setup correctly, you can disable the Lablab component of the ProjectionSetup to see the final output of your scene.
 
-![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/ProjectionSetupInSampleSceneMireDisabled.jpg)
-![](https://github.com/Theoriz/Unity-HDRP-Vioso-Template/blob/main/Resources/Documentation/Screenshots/Outputs.jpg)
+![](https://github.com/Theoriz/Unity-HDRP-Vioso-Lablab/blob/main/Resources/Documentation/Screenshots/ProjectionSetupInSampleSceneMireDisabled.jpg)
+![](https://github.com/Theoriz/Unity-HDRP-Vioso-Lablab/blob/main/Resources/Documentation/Screenshots/Outputs.jpg)
 
 ## Unity Version
 
